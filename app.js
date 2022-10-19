@@ -1,38 +1,25 @@
 // DOM manipulation
 
+/* const title = document.querySelector('#main-heading');
 
-
-//GetElementById()
-
-/* const title =document.getElementById('main-heading');
-
-console.log(title); */
-
-
-//GetElementByClassName()
-
-/* const listItem = document.getElementsByClassName('list-items');
-
-console.log(listItem); */
-
-
-// getElementByTagName()
-
-/* const listItem = document.getElementsByTagName('li');
-
-console.log(listItem);
- */
-
-
-// querySelector()
-
-/* const container = document.querySelector('div');
-
-console.log(container); */
-
-// querySelectorAll()
-
+title.style.color = 'red'; */
 /* 
-const container = document.querySelectorAll('div');
+const listItems = document.querySelectorAll('.list-items');
 
-console.log(container); */
+for( i = 0; i < listItems.length; i++) {
+    listItems[i].style.fontSize = '5rem';
+}
+ */
+/* 
+
+// creating elements
+
+const ul = document.querySelector('ul');
+const li = document.createElement('li');
+
+ul.append(li);
+
+li.innerText = 'X-men';
+
+li.setAttribute('id', 'main-heading');
+li.removeAttribute('id'); */
