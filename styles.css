@@ -16,9 +16,19 @@
     margin: 60px;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    
     
 }
 
-.li {
+ul {
+    
+    list-style: none;
+    
+}
+
+li {
+    background-color: white;
+    display: flex;
     
 }
