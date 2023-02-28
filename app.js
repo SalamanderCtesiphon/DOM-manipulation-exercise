@@ -36,3 +36,6 @@ card.appendChild(headerOne);
 const para = document.createElement('p');
 para.textContent = "ME TOO!";
 card.appendChild(para);
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert('Hello World');
