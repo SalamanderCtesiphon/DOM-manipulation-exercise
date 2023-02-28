@@ -38,6 +38,15 @@ para.textContent = "ME TOO!";
 card.appendChild(para);
 
 const btn = document.querySelector('#btn');
-btn.addEventListener('click', () => {
-    alert('Hello World!');
+btn.addEventListener('click', (e) => {
+    e.target.style.backgroundColor = 'blue';
+    e.target.style.color = "white";
+});
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        alert(button.id);
+    });
 });
