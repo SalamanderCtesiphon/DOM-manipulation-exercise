@@ -38,4 +38,6 @@ para.textContent = "ME TOO!";
 card.appendChild(para);
 
 const btn = document.querySelector('#btn');
-btn.onclick = () => alert('Hello World');
+btn.addEventListener('click', () => {
+    alert('Hello World!');
+});
